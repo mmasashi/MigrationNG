@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		216925C714604833002F9E15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216925C614604833002F9E15 /* UIKit.framework */; };
+		216925C914604833002F9E15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216925C814604833002F9E15 /* Foundation.framework */; };
+		216925CB14604833002F9E15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216925CA14604833002F9E15 /* CoreGraphics.framework */; };
+		216925CD14604833002F9E15 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216925CC14604833002F9E15 /* CoreData.framework */; };
+		216925D314604833002F9E15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 216925D114604833002F9E15 /* InfoPlist.strings */; };
+		216925D514604833002F9E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 216925D414604833002F9E15 /* main.m */; };
+		216925D914604833002F9E15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216925D814604833002F9E15 /* AppDelegate.m */; };
+		216925DC14604833002F9E15 /* MigrationNG.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 216925DA14604833002F9E15 /* MigrationNG.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		216925C214604833002F9E15 /* MigrationNG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MigrationNG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		216925C614604833002F9E15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		216925C814604833002F9E15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		216925CA14604833002F9E15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		216925CC14604833002F9E15 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		216925D014604833002F9E15 /* MigrationNG-Info.plist */ = {isa = PBXFileReference; path = "MigrationNG-Info.plist"; sourceTree = "<group>"; };
+		216925D214604833002F9E15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		216925D414604833002F9E15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		216925D614604833002F9E15 /* MigrationNG-Prefix.pch */ = {isa = PBXFileReference; path = "MigrationNG-Prefix.pch"; sourceTree = "<group>"; };
+		216925D714604833002F9E15 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		216925D814604833002F9E15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		216925DB14604833002F9E15 /* MigrationNG.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MigrationNG.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		216925BF14604833002F9E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216925C714604833002F9E15 /* UIKit.framework in Frameworks */,
+				216925C914604833002F9E15 /* Foundation.framework in Frameworks */,
+				216925CB14604833002F9E15 /* CoreGraphics.framework in Frameworks */,
+				216925CD14604833002F9E15 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		216925B714604833002F9E15 = {
+			isa = PBXGroup;
+			children = (
+				216925CE14604833002F9E15 /* MigrationNG */,
+				216925C514604833002F9E15 /* Frameworks */,
+				216925C314604833002F9E15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		216925C314604833002F9E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				216925C214604833002F9E15 /* MigrationNG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		216925C514604833002F9E15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216925C614604833002F9E15 /* UIKit.framework */,
+				216925C814604833002F9E15 /* Foundation.framework */,
+				216925CA14604833002F9E15 /* CoreGraphics.framework */,
+				216925CC14604833002F9E15 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		216925CE14604833002F9E15 /* MigrationNG */ = {
+			isa = PBXGroup;
+			children = (
+				216925D714604833002F9E15 /* AppDelegate.h */,
+				216925D814604833002F9E15 /* AppDelegate.m */,
+				216925DA14604833002F9E15 /* MigrationNG.xcdatamodeld */,
+				216925CF14604833002F9E15 /* Supporting Files */,
+			);
+			path = MigrationNG;
+			sourceTree = "<group>";
+		};
+		216925CF14604833002F9E15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				216925D014604833002F9E15 /* MigrationNG-Info.plist */,
+				216925D114604833002F9E15 /* InfoPlist.strings */,
+				216925D414604833002F9E15 /* main.m */,
+				216925D614604833002F9E15 /* MigrationNG-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		216925C114604833002F9E15 /* MigrationNG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216925DF14604833002F9E15 /* Build configuration list for PBXNativeTarget "MigrationNG" */;
+			buildPhases = (
+				216925BE14604833002F9E15 /* Sources */,
+				216925BF14604833002F9E15 /* Frameworks */,
+				216925C014604833002F9E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MigrationNG;
+			productName = MigrationNG;
+			productReference = 216925C214604833002F9E15 /* MigrationNG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		216925B914604833002F9E15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = mmasashi.jp;
+			};
+			buildConfigurationList = 216925BC14604833002F9E15 /* Build configuration list for PBXProject "MigrationNG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 216925B714604833002F9E15;
+			productRefGroup = 216925C314604833002F9E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				216925C114604833002F9E15 /* MigrationNG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		216925C014604833002F9E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216925D314604833002F9E15 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		216925BE14604833002F9E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216925D514604833002F9E15 /* main.m in Sources */,
+				216925D914604833002F9E15 /* AppDelegate.m in Sources */,
+				216925DC14604833002F9E15 /* MigrationNG.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		216925D114604833002F9E15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216925D214604833002F9E15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		216925DD14604833002F9E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		216925DE14604833002F9E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		216925E014604833002F9E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MigrationNG/MigrationNG-Prefix.pch";
+				INFOPLIST_FILE = "MigrationNG/MigrationNG-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		216925E114604833002F9E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MigrationNG/MigrationNG-Prefix.pch";
+				INFOPLIST_FILE = "MigrationNG/MigrationNG-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		216925BC14604833002F9E15 /* Build configuration list for PBXProject "MigrationNG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216925DD14604833002F9E15 /* Debug */,
+				216925DE14604833002F9E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216925DF14604833002F9E15 /* Build configuration list for PBXNativeTarget "MigrationNG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216925E014604833002F9E15 /* Debug */,
+				216925E114604833002F9E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		216925DA14604833002F9E15 /* MigrationNG.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				216925DB14604833002F9E15 /* MigrationNG.xcdatamodel */,
+			);
+			currentVersion = 216925DB14604833002F9E15 /* MigrationNG.xcdatamodel */;
+			path = MigrationNG.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 216925B914604833002F9E15 /* Project object */;
+}
