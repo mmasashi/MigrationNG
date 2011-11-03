@@ -15,6 +15,11 @@
 		216925D514604833002F9E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 216925D414604833002F9E15 /* main.m */; };
 		216925D914604833002F9E15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216925D814604833002F9E15 /* AppDelegate.m */; };
 		216925DC14604833002F9E15 /* MigrationNG.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 216925DA14604833002F9E15 /* MigrationNG.xcdatamodeld */; };
+		216925F1146291BB002F9E15 /* MigrationNG.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 216925F0146291BB002F9E15 /* MigrationNG.sqlite */; };
+		216925F7146292B6002F9E15 /* MigrationPolicy1to4.m in Sources */ = {isa = PBXBuildFile; fileRef = 216925F6146292B6002F9E15 /* MigrationPolicy1to4.m */; };
+		216925F9146292E9002F9E15 /* Mapping1to4.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 216925F8146292E9002F9E15 /* Mapping1to4.xcmappingmodel */; };
+		21B8A72614629A5D0025351E /* Mapping3to4.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 21B8A72314629A5D0025351E /* Mapping3to4.xcmappingmodel */; };
+		21B8A72714629A5D0025351E /* MigrationPolicy3to4.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B8A72514629A5D0025351E /* MigrationPolicy3to4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +28,23 @@
 		216925C814604833002F9E15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		216925CA14604833002F9E15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		216925CC14604833002F9E15 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		216925D014604833002F9E15 /* MigrationNG-Info.plist */ = {isa = PBXFileReference; path = "MigrationNG-Info.plist"; sourceTree = "<group>"; };
+		216925D014604833002F9E15 /* MigrationNG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MigrationNG-Info.plist"; sourceTree = "<group>"; };
 		216925D214604833002F9E15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		216925D414604833002F9E15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		216925D614604833002F9E15 /* MigrationNG-Prefix.pch */ = {isa = PBXFileReference; path = "MigrationNG-Prefix.pch"; sourceTree = "<group>"; };
-		216925D714604833002F9E15 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		216925D614604833002F9E15 /* MigrationNG-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MigrationNG-Prefix.pch"; sourceTree = "<group>"; };
+		216925D714604833002F9E15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		216925D814604833002F9E15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		216925DB14604833002F9E15 /* MigrationNG.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MigrationNG.xcdatamodel; sourceTree = "<group>"; };
+		216925E214604A29002F9E15 /* MigrationNG 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MigrationNG 2.xcdatamodel"; sourceTree = "<group>"; };
+		216925E314604A57002F9E15 /* MigrationNG 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MigrationNG 3.xcdatamodel"; sourceTree = "<group>"; };
+		216925E614628E60002F9E15 /* MigrationNG 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MigrationNG 4.xcdatamodel"; sourceTree = "<group>"; };
+		216925F0146291BB002F9E15 /* MigrationNG.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MigrationNG.sqlite; sourceTree = "<group>"; };
+		216925F5146292B6002F9E15 /* MigrationPolicy1to4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MigrationPolicy1to4.h; sourceTree = "<group>"; };
+		216925F6146292B6002F9E15 /* MigrationPolicy1to4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MigrationPolicy1to4.m; sourceTree = "<group>"; };
+		216925F8146292E9002F9E15 /* Mapping1to4.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Mapping1to4.xcmappingmodel; sourceTree = "<group>"; };
+		21B8A72314629A5D0025351E /* Mapping3to4.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Mapping3to4.xcmappingmodel; sourceTree = "<group>"; };
+		21B8A72414629A5D0025351E /* MigrationPolicy3to4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MigrationPolicy3to4.h; sourceTree = "<group>"; };
+		21B8A72514629A5D0025351E /* MigrationPolicy3to4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MigrationPolicy3to4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +95,15 @@
 			children = (
 				216925D714604833002F9E15 /* AppDelegate.h */,
 				216925D814604833002F9E15 /* AppDelegate.m */,
+				216925F0146291BB002F9E15 /* MigrationNG.sqlite */,
 				216925DA14604833002F9E15 /* MigrationNG.xcdatamodeld */,
 				216925CF14604833002F9E15 /* Supporting Files */,
+				216925F8146292E9002F9E15 /* Mapping1to4.xcmappingmodel */,
+				216925F5146292B6002F9E15 /* MigrationPolicy1to4.h */,
+				216925F6146292B6002F9E15 /* MigrationPolicy1to4.m */,
+				21B8A72314629A5D0025351E /* Mapping3to4.xcmappingmodel */,
+				21B8A72414629A5D0025351E /* MigrationPolicy3to4.h */,
+				21B8A72514629A5D0025351E /* MigrationPolicy3to4.m */,
 			);
 			path = MigrationNG;
 			sourceTree = "<group>";
@@ -149,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				216925D314604833002F9E15 /* InfoPlist.strings in Resources */,
+				216925F1146291BB002F9E15 /* MigrationNG.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +185,10 @@
 				216925D514604833002F9E15 /* main.m in Sources */,
 				216925D914604833002F9E15 /* AppDelegate.m in Sources */,
 				216925DC14604833002F9E15 /* MigrationNG.xcdatamodeld in Sources */,
+				216925F7146292B6002F9E15 /* MigrationPolicy1to4.m in Sources */,
+				216925F9146292E9002F9E15 /* Mapping1to4.xcmappingmodel in Sources */,
+				21B8A72614629A5D0025351E /* Mapping3to4.xcmappingmodel in Sources */,
+				21B8A72714629A5D0025351E /* MigrationPolicy3to4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,8 +254,10 @@
 		216925E014604833002F9E15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MigrationNG/MigrationNG-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "MigrationNG/MigrationNG-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -238,8 +267,10 @@
 		216925E114604833002F9E15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MigrationNG/MigrationNG-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "MigrationNG/MigrationNG-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -265,6 +296,7 @@
 				216925E114604833002F9E15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -272,9 +304,12 @@
 		216925DA14604833002F9E15 /* MigrationNG.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				216925E614628E60002F9E15 /* MigrationNG 4.xcdatamodel */,
+				216925E314604A57002F9E15 /* MigrationNG 3.xcdatamodel */,
+				216925E214604A29002F9E15 /* MigrationNG 2.xcdatamodel */,
 				216925DB14604833002F9E15 /* MigrationNG.xcdatamodel */,
 			);
-			currentVersion = 216925DB14604833002F9E15 /* MigrationNG.xcdatamodel */;
+			currentVersion = 216925E614628E60002F9E15 /* MigrationNG 4.xcdatamodel */;
 			path = MigrationNG.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
