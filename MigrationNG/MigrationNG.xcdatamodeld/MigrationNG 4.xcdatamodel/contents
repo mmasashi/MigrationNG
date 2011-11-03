@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="10K549" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Dummy4" syncable="YES"/>
     <entity name="School" syncable="YES">
         <attribute name="school_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="school_name" optional="YES" attributeType="String" syncable="YES"/>
@@ -9,7 +10,8 @@
         <attribute name="student_name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Student" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Dummy4" positionX="160" positionY="192" width="128" height="45"/>
         <element name="School" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Student" positionX="160" positionY="192" width="128" height="75"/>
     </elements>
 </model>
